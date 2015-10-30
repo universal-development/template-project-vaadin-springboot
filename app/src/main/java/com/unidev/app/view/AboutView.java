@@ -12,6 +12,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class AboutView extends VerticalLayout implements View {
 
+    public static final String VIEW_NAME = "aboutView";
+
     public AboutView() {
         Label label = new Label("Application developed by UniversalDevelopment");
         addComponent(label);
