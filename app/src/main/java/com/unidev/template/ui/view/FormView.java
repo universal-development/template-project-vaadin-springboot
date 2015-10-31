@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 import javax.annotation.PostConstruct;
 
 @Component
-public class Form extends VerticalLayout implements View {
+public class FormView extends VerticalLayout implements View {
 
     @Autowired
     private RandomUtils randomUtils;
@@ -22,7 +22,7 @@ public class Form extends VerticalLayout implements View {
     private TestService testService;
 
 
-    public Form() {
+    public FormView() {
     }
 
     @PostConstruct
