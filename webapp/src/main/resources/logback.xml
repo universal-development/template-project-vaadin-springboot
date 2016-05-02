@@ -4,11 +4,6 @@
     <jmxConfigurator />
 
     <property resource="application.properties" />
-    <property resource="application.${ENV}.properties" />
-
-    <!-- user home properties loading may not work, you will need to specify -Dapplication.name=... -->
-    <property resource="${user.home}/${application.name}/application.properties" />
-    <property resource="${user.home}/${application.name}/application.${ENV}.properties" />
 
     <contextListener class="ch.qos.logback.classic.jul.LevelChangePropagator">
         <resetJUL>true</resetJUL>
