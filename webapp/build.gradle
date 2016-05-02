@@ -33,6 +33,7 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-freemarker')
 	compile('org.springframework.boot:spring-boot-starter-remote-shell')
 	compile('org.springframework.boot:spring-boot-starter-security')
+	compile('org.springframework.boot:spring-boot-starter-thymeleaf')
 	compile('com.vaadin:vaadin-spring-boot-starter:1.0.0')
 	compile('org.springframework.boot:spring-boot-starter-web')
 	
