@@ -1,0 +1,4 @@
+dependencies {
+    compile "com.unidev.platform.spring:common:$project.unidevPlatformVersion"
+}
+
